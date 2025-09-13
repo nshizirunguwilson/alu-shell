@@ -1,1 +1,1 @@
-# alu-shell
+Learning the basica of Shell
