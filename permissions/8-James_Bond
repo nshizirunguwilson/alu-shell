@@ -1,2 +1,2 @@
 #!/bin/bash
-chmo 007 hello
+chmo u= g= o=rwx hello
