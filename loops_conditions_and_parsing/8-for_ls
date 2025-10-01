@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # 8-for_ls
 
-for file in $(ls | sort); do
-    if [[ "$file" == *-* ]]; then
-        echo "${file#*-}"
-    fi
+list=$(ls)
+for i in $list
+do
+  echo "$i" | cut -d '-' -f2
 done
-
